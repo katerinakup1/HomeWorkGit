@@ -22,6 +22,8 @@ public class GitMap {
         Set<Integer> keySet = hashMap.keySet();
         for (Integer value : keySet) {
             if (hashMap.get(value).contains("цать")) {
+                System.out.println(value);
+            }
         }
     }
 }
