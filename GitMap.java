@@ -20,5 +20,6 @@ public class GitMap {
         hashMap.put(12, "двенадцать");
         hashMap.put(13, "тринадцать");
         Set<Integer> keySet = hashMap.keySet();
+        for (Integer value : keySet) {
     }
 }
